@@ -14,7 +14,7 @@
 
         <!-- Left Panel - Tables List -->
         <DockPanel Grid.Column="0" Background="#f0f0f0">
-            <Label Content="Database Tables" FontWeight="Bold" Padding="10" Background="#0078d0" Foreground="White" DockPanel.Dock="Top"/>
+            <Label Content="Database Tables" FontWeight="Bold" Padding="10" Background="#FF8F9294" Foreground="White" DockPanel.Dock="Top"/>
             <ScrollViewer VerticalScrollBarVisibility="Auto">
                 <ListBox x:Name="TablesListBox" SelectionChanged="TablesListBox_SelectionChanged">
                     <ListBox.ItemTemplate>
