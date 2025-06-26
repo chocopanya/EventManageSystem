@@ -1,0 +1,90 @@
+[
+  {
+    "UserId": 1,
+    "email": "ivan.ivanov@example.com",
+    "first_name": "Иван",
+    "last_name": "Иванов",
+    "events": [
+      {
+        "event_id": 101,
+        "title": "Технологическая конференция 2023",
+        "created_at": "2023-05-15T09:00:00",
+        "location_id": 5,
+        "category_id": [ 1, 3 ]
+      },
+      {
+        "event_id": 102,
+        "title": "Воркшоп по веб-разработке",
+        "created_at": "2023-06-10T10:00:00",
+        "location_id": 7,
+        "category_id": [ 2 ]
+      }
+    ],
+    "speakers": [
+      {
+        "speaker_id": 201,
+        "first_name": "Алексей",
+        "last_name": "Петров"
+      },
+      {
+        "speaker_id": 202,
+        "first_name": "Мария",
+        "last_name": "Сидорова"
+      }
+    ],
+    "participants": [
+      {
+        "participant_id": 301,
+        "user_id": 2,
+        "first_name": "Петр",
+        "last_name": "Смирнов",
+        "email": "petr.smirnov@example.com"
+      },
+      {
+        "participant_id": 302,
+        "user_id": 3,
+        "first_name": "Ольга",
+        "last_name": "Кузнецова",
+        "email": "olga.kuznetsova@example.com"
+      }
+    ]
+  },
+  {
+    "UserId": 2,
+    "email": "petr.smirnov@example.com",
+    "first_name": "Петр",
+    "last_name": "Смирнов",
+    "events": [
+      {
+        "event_id": 103,
+        "title": "Конференция по искусственному интеллекту",
+        "created_at": "2023-07-20T10:00:00",
+        "location_id": 3,
+        "category_id": [ 1, 4 ]
+      }
+    ],
+    "speakers": [
+      {
+        "speaker_id": 203,
+        "first_name": "Дмитрий",
+        "last_name": "Васильев"
+      }
+    ],
+    "participants": [
+      {
+        "participant_id": 303,
+        "user_id": 1,
+        "first_name": "Иван",
+        "last_name": "Иванов",
+        "email": "ivan.ivanov@example.com"
+      },
+      {
+        "participant_id": 304,
+        "user_id": 4,
+        "first_name": "Елена",
+        "last_name": "Попова",
+        "email": "elena.popova@example.com"
+      }
+    ]
+  }
+]
